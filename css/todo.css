@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #90e0ef;
+}
+nav{
+    color: white;
+    background-color: #03045e;
+    padding: 10px;
+    font-size: 30px;
+}
+.todo-container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+input[type="text"],input[type="submit"]{
+    border: none; 
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow:  0px 0px 4px #03045e;
+}
+input[type="submit"]{
+    background-color: #283618;
+    color: white;
+    width: 100px;
+}
+input[type="text"]{
+    width: 300px;
+}
+.each-todo{
+    background-color: #03045e;
+    color: white;
+    margin: 10px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 3px;
+    word-wrap: break-word;
+    position: relative;
+}
+#todos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    position: absolute;
+    right: 3%;
+}
+i{
+    padding-left: 17px;
+}
+.todo-head{
+    font-size: 26px;
+}
